@@ -9,7 +9,7 @@ To use this module, you need to have Python installed. Additionally, ensure that
 ```bash
 pip install sqlite3 pandas
 
-##Usage
+## Usage
 from data_base import Database
 
 # Creating a Database object
@@ -77,11 +77,11 @@ db.update_data(table_name="Transactions", attribute_name= "total_number_of_units
     - update_table(self, table_name: str, update_dict, where_dict): Updates rows in a specified table based on given key-value pairs.
 
 
-##Documentation
+## Documentation
 Detailed documentation for each method and its parameters can be found in the code as docstrings. 
 
-##Contributing
+## Contributing
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License
