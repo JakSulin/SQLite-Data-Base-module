@@ -43,8 +43,10 @@ print(data)
 
 # Update data
 db.update_data(table_name="Transactions", attribute_name= "total_number_of_units_after_transaction", attribute_value= updated_value, item_id= self.id)    
+value pairs.
+```
 
-# List of available methods:
+## List of available methods:
     - create_table(self, table_name: str, *columns): Creates a new table in the database with the specified name and columns.
 
     - check_table_exists(self, table_name): Checks if a table with the given name already exists in the database.
@@ -75,8 +77,7 @@ db.update_data(table_name="Transactions", attribute_name= "total_number_of_units
 
     - update_data(self, table_name: str, attribute_name: str, attribute_value: str, item_id: int): Updates data in a specified table.
 
-    - update_table(self, table_name: str, update_dict, where_dict): Updates rows in a specified table based on given key-value pairs.
-```
+    - update_table(self, table_name: str, update_dict, where_dict): Updates rows in a specified table based on given key-
 
 ## Documentation
 Detailed documentation for each method and its parameters can be found in the code as docstrings. 
