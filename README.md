@@ -6,8 +6,8 @@ This is a simple Python class for interacting with SQLite databases. It provides
 
 To use this module, you need to have Python installed. Additionally, ensure that the `sqlite3` and `pandas` modules are available. If not, you can install them using:
 
-```bash
 pip install sqlite3 pandas
+
 
 ## Usage
 from data_base import Database
