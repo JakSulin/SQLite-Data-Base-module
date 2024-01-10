@@ -10,7 +10,7 @@ pip install sqlite3 pandas
 
 
 ## Usage
-'''
+```
 from data_base import Database
 
 # Creating a Database object
