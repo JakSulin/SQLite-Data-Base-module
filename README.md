@@ -76,7 +76,7 @@ db.update_data(table_name="Transactions", attribute_name= "total_number_of_units
     - update_data(self, table_name: str, attribute_name: str, attribute_value: str, item_id: int): Updates data in a specified table.
 
     - update_table(self, table_name: str, update_dict, where_dict): Updates rows in a specified table based on given key-value pairs.
-'''
+```
 
 ## Documentation
 Detailed documentation for each method and its parameters can be found in the code as docstrings. 
